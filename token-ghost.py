@@ -104,7 +104,7 @@ if __name__ == "__main__":
     tokeniser = Tokeniser()
 
     while True:
-        print(f"{Colors.INSTRUCTION}Enter the raw input to anonymise. Type '.' on a new line when finished (or 'EXIT' to quit, 'r' to reset tokens):{Colors.RESET}")
+        print(f"{Colors.INSTRUCTION}Enter the raw input to anonymise. Type '.' (or press Ctrl+D) on a new line when finished (or 'EXIT' to quit, 'r' to reset tokens):{Colors.RESET}")
         print(Colors.INPUT, end="", flush=True)
         
         raw_lines = []
@@ -118,7 +118,7 @@ if __name__ == "__main__":
                 if line.strip().lower() == "r" and not raw_lines:
                     tokeniser.clear()
                     print(f"\n{Colors.OUTPUT}--- Tokens cleared ---{Colors.RESET}\n")
-                    print(f"{Colors.INSTRUCTION}Enter the raw input to anonymise. Type '.' on a new line when finished (or 'EXIT' to quit, 'r' to reset tokens):{Colors.RESET}")
+                    print(f"{Colors.INSTRUCTION}Enter the raw input to anonymise. Type '.' (or press Ctrl+D) on a new line when finished (or 'EXIT' to quit, 'r' to reset tokens):{Colors.RESET}")
                     print(Colors.INPUT, end="", flush=True)
                     continue
                 raw_lines.append(line)
