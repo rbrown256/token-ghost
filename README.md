@@ -84,6 +84,22 @@ python3 token-ghost.py
 
 4. **Restoration:** You copy the AI's response, paste it back into Token Ghost, and it replaces the tokens with your original private data.
 
+## Example
+
+<img width="1240" height="1306" alt="image" src="https://github.com/user-attachments/assets/7beb6b04-df28-414b-98fb-4ce8556cecdc" />
+
+This is now on the clipboard automatically.
+
+Paste into e.g. Gemini:
+
+<img width="674" height="1165" alt="image" src="https://github.com/user-attachments/assets/221445c7-f203-4fa0-8d3b-c02ce27eebb6" />
+
+<img width="774" height="931" alt="image" src="https://github.com/user-attachments/assets/c10942c7-255b-4a33-a840-4f7d7b26d19e" />
+
+Token Ghost changes it back:
+
+<img width="1213" height="953" alt="image" src="https://github.com/user-attachments/assets/c9d1b5cd-bdd3-44f0-b497-cc15b876414b" />
+
 ## ⚠️ Important Security Warning
 
 **Do not blindly copy and paste the output.** 
